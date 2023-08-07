@@ -10,7 +10,7 @@ coin = Actor('coin',(randint(50,WIDTH-50),
                      randint(50,HEIGHT-50)))
 alien = Actor('alien',(-100,HEIGHT//2))
 ps = 5 #player speed
-es = 2 #enemy speed
+es = 1 #enemy speed
 def player_movement():
     global score
     if keyboard.left:
